@@ -14,10 +14,10 @@ public class DriverSettings {
     public static Boolean isAndroid = true; //ios ise true'ya çekilir onun ayarları çalışır
 
     public static Boolean isBrowserStack = true;
-    public static String Username = "batuhandas_hdq4VD";
-    public static String Access_Key = "2z3xWrDQiDio3UHEmts2";
+    public static String BROWSERSTACK_USERNAME = "batuhandas_hdq4VD";
+    public static String BROWSERSTACK_ACCESS_KEY = "2z3xWrDQiDio3UHEmts2";
 
-    public static final String URL = "https://" + Username + ":" + Access_Key + "@hub-cloud.browserstack.com/wd/hub";
+    public static final String URL = "https://" + BROWSERSTACK_USERNAME + ":" + BROWSERSTACK_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
     public static void initializeDriver() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
